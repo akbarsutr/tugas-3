@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Desain Web</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/onepage-scroll.css" />
+        <link href='assets/fonts/Righteous.css' rel='stylesheet' type='text/css'>
+        <link href='assets/fonts/Voltaire.css' rel='stylesheet' type="text/css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head> 
+    <body>
+        <header>
+            <img src="assets/img/logo.jpg" alt="logo mini">
+            <h1><a href="#">Software Pemutar Video</a></h1>
+        </header>
+        <div class="main">
+            <section class="page one">
+                <div class="page-container">
+                    <h2><img src="assets/img/kmp.jpg" alt="logo mini"> KMPlayer</h2>
+                    <p align="justify"> KMPlayer adalah salah satu video player yang cukup populer.
+                        KMPlayer mendukung berbagai format video, mulai dari: AVI, ASF, WMV, AVS, FLV, MKV, MOV, 3GP,
+                        MP4, MPG, MPEG, DAT, OGM, VOB, RM, RMVB, TS, TP, IFO, dan NSV. KMPlayer juga sekaligus berfungsi
+                        sebagai music player/pemutar musik. Mulai dari: MP3, AAC, WAV, WMA, CDA, FLAC, M4A, MID, MKA, MP2,
+                        MPA, MPC, APE, OFR, OGG, RA, WV, TTA, AC3, dan DTS. Media player ini mendukung pemutaran video 3D 360 derajat.
+                        Dengan KMPlayer, kamu juga bisa melihat dan memutar video/film dengan subtitle otomatis.
+                        Bagusnya, kamu bisa mengubah tampilan subtitle-nya langsung di sana.
+                     </p>
+					<p> Review </p>
+                    <video width="500" controls>
+                    <source src="assets/vid/KM Player.MP4" type="video/mp4"/>
+                    
+                </div>
+            </section>
+            
+            <section class="page two">
+                <div class="page-container">
+                    <h2><img src="assets/img/vlc.jpg" alt="logo mini"> VLC Media Player</h2>
+                    <p align="justify">VLC Media Player merupakan perangkat lunak (software) pemutar beragam berkas (file) multimedia,
+                        baik video maupun audio dalam berbagai format, seperti MPEG, DivX, Ogg, dan lain-lain.
+                        VLC Media Player juga dapat digunakan untuk memutar DVD,VCD, maupun CD. VLC Media Player bersifat
+                        sumber terbuka (open source) dan tersedia untuk berbagai sistem operasi. Mulai dari Microsoft Windows,
+                        beragam distro Linux, Mac OS, dan beberapa sistem operasi lainnya. </p>
+                    <p> Review </p>
+                     <video width="500" controls>
+                    <source src="assets/vid/vlc media player.MP4" type="video/mp4"/>
+                    
+                </div>
+            </section>
+            
+            <section class="page three">
+                <div class="page-container">
+                    <h2><img src="assets/img/gom.jpg" alt="logo mini"> Gom Player</h2>
+                    <p align="justify">Pemutar GOM adalah pemutar video kompak, mudah digunakan yang membuat Anda bisa menikmati
+                        banyak jenis berkas video dan film. Ditambah lagi, Anda tidak akan mengalami masalah dengan codec karena
+                        Pemutar GOM telah disertai dengan itu – dan bila tidak, secara otomatis pemutar akan mencari codec yang
+                        tepat dalam jaringan. Pemutar GOM mempunyai tampilan antarmuka yang rapi dengan sokongan kulit-kulit
+                        dan mempunyai fitur hebat lainnya: mendukung subjudul, pengaturan berkas-berkas favorit, menyokong daftar
+                        putar, penggunaan rentasan dengan tetikus dan papan ketik untuk banyak fungsi dan banyak lagi. </p>
+                    <p> Review </p>
+                     <video width="500" controls>
+                    <source src="assets/vid/Gom Media Player.MP4" type="video/mp4"/>
+                    
+                </div>
+            </section>
+        </div>
+
+        <script type="text/javascript" src="assets/js/jquery-1.9.1.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.onepage-scroll.js"></script>
+        <script type="text/javascript">
+        $(".main").onepage_scroll({
+                sectionContainer: "section",
+                easting: "cubic-bezier(0.180, 0.900, 0.410, 1.210)"
+        });
+        </script>
+    </body>
+</html>
